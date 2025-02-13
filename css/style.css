@@ -1,0 +1,65 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #A6D4FF;
+}
+
+#navbar{
+    background-color: #A6D4FF;
+}
+
+.container.mt-4{
+    border-top: 10px black;
+}
+
+.nav-margin{
+    margin: 10px;
+}
+
+.paragraph{
+    width: 500px;
+}
+
+.text-about{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.btn{
+    color: white;
+    border-radius: 20px 20px;
+    border-color: #E5AA44;
+    background-color: #E5AA44;
+}
+
+#brand {
+    display: flex;
+    justify-content: center; /* Memusatkan konten secara horizontal */
+    align-items: center; /* Memusatkan konten secara vertikal */
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* marquee */
+.marquee {
+    width: 100%;
+    padding: 20px 0;
+    overflow: hidden;
+    background-color: #f9f9f9; /* Background agar lebih terlihat */
+  }
+  
+  .marquee-wrapper {
+    width: 10000px;
+    animation: marqueeAnimation 100s linear 0s infinite running;
+  }
+  
+  .marquee-title img {
+    margin-right: 20px; /* Jarak antar gambar */
+    float: left;
+    vertical-align: middle; /* Pastikan gambar sejajar di tengah */
+  }
+  
+  @keyframes marqueeAnimation {
+    100% {
+      transform: translateX(-4600px);
+    }
+  }
